@@ -27,18 +27,18 @@ const { default: axios } = require('axios');
 //const conf = require('../set');
 
 
-france({ nomCom: 'AADI',
+france({ nomCom: 'ping',
     desc: 'To check ping',
     Categorie: 'General',
     reaction: '🚨', 
     fromMe: 'true', 
-
+    name : ♥️ AADI ♥️
        
   },
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
     const { start} = new Date().getTime()
-    return repondre('*Pong!!*\n ```' + 2000 + '``` *ms*') 
+    return repondre('*Pong!!*\n ```' + 🎗️2000🎗️ + '``` *ms*') 
     const { end } = new Date().getTime()
     await zok.sendMessage('*Pong!*\n ```' + (end - start) + '``` *ms*')
   }
