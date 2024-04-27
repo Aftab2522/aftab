@@ -42,7 +42,7 @@ france({ nomCom: "yts", categorie: "Search", reaction: "✋" }, async (dest, zk,
     for (let i = 0; i < 10; i++) {
       captions += `----------------\nTitle: ${resultat[i].title}\nTime : ${resultat[i].timestamp}\nUrl: ${resultat[i].url}\n`;
     }
-    captions += "\n======\n*powered by AFTAB-4T4*";
+    captions += "\n======\n*powered by 🎗️AFTAB ABBASI🎗️*";
 
     // repondre(captions)
     zk.sendMessage(dest, { image: { url: resultat[0].thumbnail }, caption: captions }, { quoted: ms });
