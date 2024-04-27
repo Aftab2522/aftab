@@ -20,10 +20,9 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const { france } = require("../framework/france");
 france({ nomCom: "tempmail", reaction: "😌", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
     console.log("Commande saisie !!!s");
-    let z = '*AFTAB-4T4* Temporary emails,Powered by *France King* \n\n ' + "Click the links below to create unlimited TEMPORARY Emails. Powered by *FLASH-MD.*\n\n";
-    let d = ' 1️⃣ https://tempumail.com\n\n 2️⃣ https://etempmail.com\n\n 3️⃣ https://ghostmail.one\n\n 4️⃣ https://tempmailid.com';
-    let varmess = z + d;
-    var img = 'https://telegra.ph/file/0c17f27d5a3a0b41ea303.jpg';
+    let z = '*😈AFTAB ABBASI😈* Temporary emails,Powered by *🎗️AFTAB-4T4🎗️* \n\n ' + "Click the links below and visit my social media. Powered by *♥️AFTAB-4T4♥️.*\n\n";
+    let d = ' 1️⃣ https://www.tiktok.com/@aftab4t4 2️⃣https://www.instagram.com/aftab4t4 3️⃣ https://www.facebook.com/aftababbasi
+    var img = 'https://telegra.ph/file/078e97ab24519f7c8986f.jpg';
     await zk.sendMessage(dest, { image: { url: img }, caption: varmess });
     //console.log("montest")
 });
